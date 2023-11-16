@@ -20,11 +20,8 @@ PV installations in different districts
 ## Brief Description
 
 * SECTION 1 - Data Cleaning
-> The data was loaded into pandas dataframes. The column names were translated from German to English for better understanding using Google's translator
-API. Numerical columns were saved as object data type so I had to convert them into float data type. Before converting the column data type, rows with NaN
-values had to be dropped. Then I had to replace commas (,) with full stops (.) because pandas cannot convert strings with comma to float data type. Lastly,
-I had to convert some column names and values manually using map functions.
- 
+> The data was loaded into pandas dataframes. The column names were translated from German to English for better understanding using Google's translator API. 
+
 * SECTION 2 - Solar Data Analysis
 > This section deals with an in-depth analysis of solar data extracted from our main dataset. It consistes of three main parts - solar power loss in North
 Germany, distribution of solar panel orientations, and solar power loss due to panel orientation. Solar power loss is calculated as the state-wise difference between gross solar power and net solar power normalised by the gross solar power multiplied by a factor of 100. Solar panel orientations is 
